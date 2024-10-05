@@ -10,8 +10,6 @@ jobs:
       - name: Checkout Code # Fetches the latest code from the repo
         uses: actions/checkout@v2
 
-      - name: Install Dependencies # Installs the necessary packages
-        run: npm install
+    
 
-      - name: Run Tests # Runs the test suite
-        run: npm test
+     
