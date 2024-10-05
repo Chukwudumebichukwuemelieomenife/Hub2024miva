@@ -1,5 +1,8 @@
 name: CI Pipeline
-on: [push] # Event that triggers the workflow (push in this case)
+on: 
+ push: 
+  branches:
+     - main # Event that triggers the workflow (push in this case)
 jobs:
   build:
     runs-on: ubuntu-latest # Environment in which the job will run
